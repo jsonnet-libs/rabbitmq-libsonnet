@@ -2,27 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/</loc>
-         <lastmod>2022-06-14</lastmod>
+         <lastmod>2022-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.14/</loc>
+         <lastmod>2022-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.14/rabbitmq/</loc>
+         <lastmod>2022-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.14/rabbitmq/v1beta1/</loc>
+         <lastmod>2022-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.14/rabbitmq/v1beta1/rabbitmqCluster/</loc>
+         <lastmod>2022-09-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/</loc>
-         <lastmod>2022-06-14</lastmod>
+         <lastmod>2022-09-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/</loc>
-         <lastmod>2022-06-14</lastmod>
+         <lastmod>2022-09-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/v1beta1/</loc>
-         <lastmod>2022-06-14</lastmod>
+         <lastmod>2022-09-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2022-06-14</lastmod>
+         <lastmod>2022-09-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
