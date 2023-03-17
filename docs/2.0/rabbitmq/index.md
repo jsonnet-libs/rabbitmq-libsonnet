@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rabbitmq/
+permalink: /2.0/rabbitmq/
 ---
 
 # rabbitmq

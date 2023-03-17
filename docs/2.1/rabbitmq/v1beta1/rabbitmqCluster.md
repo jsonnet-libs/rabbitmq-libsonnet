@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
+permalink: /2.1/rabbitmq/v1beta1/rabbitmqCluster/
 ---
 
 # rabbitmq.v1beta1.rabbitmqCluster
@@ -30,6 +30,7 @@ permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
   * [`fn withSelfLink(selfLink)`](#fn-metadatawithselflink)
   * [`fn withUid(uid)`](#fn-metadatawithuid)
 * [`obj spec`](#obj-spec)
+  * [`fn withDelayStartSeconds(delayStartSeconds)`](#fn-specwithdelaystartseconds)
   * [`fn withImage(image)`](#fn-specwithimage)
   * [`fn withImagePullSecrets(imagePullSecrets)`](#fn-specwithimagepullsecrets)
   * [`fn withImagePullSecretsMixin(imagePullSecrets)`](#fn-specwithimagepullsecretsmixin)
@@ -238,6 +239,7 @@ permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
         * [`fn withLabels(labels)`](#fn-specoverridestatefulsetmetadatawithlabels)
         * [`fn withLabelsMixin(labels)`](#fn-specoverridestatefulsetmetadatawithlabelsmixin)
       * [`obj spec.override.statefulSet.spec`](#obj-specoverridestatefulsetspec)
+        * [`fn withMinReadySeconds(minReadySeconds)`](#fn-specoverridestatefulsetspecwithminreadyseconds)
         * [`fn withPodManagementPolicy(podManagementPolicy)`](#fn-specoverridestatefulsetspecwithpodmanagementpolicy)
         * [`fn withReplicas(replicas)`](#fn-specoverridestatefulsetspecwithreplicas)
         * [`fn withServiceName(serviceName)`](#fn-specoverridestatefulsetspecwithservicename)
@@ -275,6 +277,7 @@ permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
             * [`fn withHostIPC(hostIPC)`](#fn-specoverridestatefulsetspectemplatespecwithhostipc)
             * [`fn withHostNetwork(hostNetwork)`](#fn-specoverridestatefulsetspectemplatespecwithhostnetwork)
             * [`fn withHostPID(hostPID)`](#fn-specoverridestatefulsetspectemplatespecwithhostpid)
+            * [`fn withHostUsers(hostUsers)`](#fn-specoverridestatefulsetspectemplatespecwithhostusers)
             * [`fn withHostname(hostname)`](#fn-specoverridestatefulsetspectemplatespecwithhostname)
             * [`fn withImagePullSecrets(imagePullSecrets)`](#fn-specoverridestatefulsetspectemplatespecwithimagepullsecrets)
             * [`fn withImagePullSecretsMixin(imagePullSecrets)`](#fn-specoverridestatefulsetspectemplatespecwithimagepullsecretsmixin)
@@ -1141,8 +1144,12 @@ permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
               * [`fn withTolerationSeconds(tolerationSeconds)`](#fn-specoverridestatefulsetspectemplatespectolerationswithtolerationseconds)
               * [`fn withValue(value)`](#fn-specoverridestatefulsetspectemplatespectolerationswithvalue)
             * [`obj spec.override.statefulSet.spec.template.spec.topologySpreadConstraints`](#obj-specoverridestatefulsetspectemplatespectopologyspreadconstraints)
+              * [`fn withMatchLabelKeys(matchLabelKeys)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithmatchlabelkeys)
+              * [`fn withMatchLabelKeysMixin(matchLabelKeys)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithmatchlabelkeysmixin)
               * [`fn withMaxSkew(maxSkew)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithmaxskew)
               * [`fn withMinDomains(minDomains)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithmindomains)
+              * [`fn withNodeAffinityPolicy(nodeAffinityPolicy)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithnodeaffinitypolicy)
+              * [`fn withNodeTaintsPolicy(nodeTaintsPolicy)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithnodetaintspolicy)
               * [`fn withTopologyKey(topologyKey)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithtopologykey)
               * [`fn withWhenUnsatisfiable(whenUnsatisfiable)`](#fn-specoverridestatefulsetspectemplatespectopologyspreadconstraintswithwhenunsatisfiable)
               * [`obj spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.labelSelector`](#obj-specoverridestatefulsetspectemplatespectopologyspreadconstraintslabelselector)
@@ -1470,6 +1477,8 @@ permalink: /1.14/rabbitmq/v1beta1/rabbitmqCluster/
     * [`fn withRequests(requests)`](#fn-specresourceswithrequests)
     * [`fn withRequestsMixin(requests)`](#fn-specresourceswithrequestsmixin)
   * [`obj spec.secretBackend`](#obj-specsecretbackend)
+    * [`obj spec.secretBackend.externalSecret`](#obj-specsecretbackendexternalsecret)
+      * [`fn withName(name)`](#fn-specsecretbackendexternalsecretwithname)
     * [`obj spec.secretBackend.vault`](#obj-specsecretbackendvault)
       * [`fn withAnnotations(annotations)`](#fn-specsecretbackendvaultwithannotations)
       * [`fn withAnnotationsMixin(annotations)`](#fn-specsecretbackendvaultwithannotationsmixin)
@@ -1673,6 +1682,14 @@ withUid(uid)
 ## obj spec
 
 "Spec is the desired state of the RabbitmqCluster Custom Resource."
+
+### fn spec.withDelayStartSeconds
+
+```ts
+withDelayStartSeconds(delayStartSeconds)
+```
+
+"DelayStartSeconds is the time the init container (`setup-container`) will sleep before terminating. This effectively delays the time between starting the Pod and starting the `rabbitmq` container. RabbitMQ relies on up-to-date DNS entries early during peer discovery. The purpose of this artificial delay is to ensure that DNS entries are up-to-date when booting RabbitMQ. For more information, see https://github.com/kubernetes/kubernetes/issues/92559 If your Kubernetes DNS backend is configured with a low DNS cache value or publishes not ready addresses promptly, you can decrase this value or set it to 0."
 
 ### fn spec.withImage
 
@@ -3266,6 +3283,14 @@ withLabelsMixin(labels)
 
 
 
+### fn spec.override.statefulSet.spec.withMinReadySeconds
+
+```ts
+withMinReadySeconds(minReadySeconds)
+```
+
+
+
 ### fn spec.override.statefulSet.spec.withPodManagementPolicy
 
 ```ts
@@ -3556,6 +3581,14 @@ withHostNetwork(hostNetwork)
 
 ```ts
 withHostPID(hostPID)
+```
+
+
+
+### fn spec.override.statefulSet.spec.template.spec.withHostUsers
+
+```ts
+withHostUsers(hostUsers)
 ```
 
 
@@ -9962,6 +9995,24 @@ withValue(value)
 
 
 
+### fn spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.withMatchLabelKeys
+
+```ts
+withMatchLabelKeys(matchLabelKeys)
+```
+
+
+
+### fn spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.withMatchLabelKeysMixin
+
+```ts
+withMatchLabelKeysMixin(matchLabelKeys)
+```
+
+
+
+**Note:** This function appends passed data to existing values
+
 ### fn spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.withMaxSkew
 
 ```ts
@@ -9974,6 +10025,22 @@ withMaxSkew(maxSkew)
 
 ```ts
 withMinDomains(minDomains)
+```
+
+
+
+### fn spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.withNodeAffinityPolicy
+
+```ts
+withNodeAffinityPolicy(nodeAffinityPolicy)
+```
+
+
+
+### fn spec.override.statefulSet.spec.template.spec.topologySpreadConstraints.withNodeTaintsPolicy
+
+```ts
+withNodeTaintsPolicy(nodeTaintsPolicy)
 ```
 
 
@@ -12359,6 +12426,18 @@ withRequestsMixin(requests)
 ## obj spec.secretBackend
 
 "Secret backend configuration for the RabbitmqCluster. Enables to fetch default user credentials and certificates from K8s external secret stores."
+
+## obj spec.secretBackend.externalSecret
+
+"LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace."
+
+### fn spec.secretBackend.externalSecret.withName
+
+```ts
+withName(name)
+```
+
+"Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?"
 
 ## obj spec.secretBackend.vault
 
