@@ -2,147 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/1.7/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.0/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.0/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.0/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.0/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.1/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.1/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.1/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.12/</loc>
+         <lastmod>2025-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.12/rabbitmq/</loc>
+         <lastmod>2025-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.12/rabbitmq/v1beta1/</loc>
+         <lastmod>2025-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.12/rabbitmq/v1beta1/rabbitmqCluster/</loc>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.6/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.6/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.6/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.6/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.7/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.7/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.7/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.7/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.8/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.8/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.8/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.8/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.9/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.9/rabbitmq/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.9/rabbitmq/v1beta1/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/rabbitmq-libsonnet/2.9/rabbitmq/v1beta1/rabbitmqCluster/</loc>
-         <lastmod>2024-06-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-02-12</lastmod>
     </url>
 </urlset>
